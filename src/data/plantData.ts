@@ -30,14 +30,12 @@ export const plants: Plant[] = [
       "Aids digestion and metabolism"
     ],
     cultivation: "Grows well in moist, fertile soil with good drainage. Requires regular watering and moderate sunlight. Seeds should be sown at the onset of the monsoon season.",
-    imageSrc: "https://images.unsplash.com/photo-1589458459875-849e2edf61cc", // Fresh Tulsi plant with green leaves
-    imageAlt: "Fresh Tulsi (Holy Basil) plant with green leaves",
+    imageSrc: "/lovable-uploads/28f89618-247d-4c2f-8fa0-4272c747f771.png",
+    imageAlt: "Fresh Tulsi (Holy Basil) plant with green leaves and a flowering stem",
     regions: ["India", "Southeast Asia"],
     categories: ["Respiratory health", "Stress relief", "Immunity"],
     gallery: [
-      "https://images.unsplash.com/photo-1589458459875-849e2edf61cc", // Main Tulsi image
-      "https://images.unsplash.com/photo-1593100126453-19b562a800c1", // Tulsi leaves close-up
-      "https://images.unsplash.com/photo-1590069261209-f8e9b8642343", // Tulsi plant in garden
+      "/lovable-uploads/28f89618-247d-4c2f-8fa0-4272c747f771.png"
     ]
   },
   {
