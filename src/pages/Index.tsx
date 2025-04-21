@@ -1,7 +1,6 @@
-
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Leaf, Plant, BookOpen } from 'lucide-react';
+import { ArrowRight, Leaf, Flower, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { plants, tours } from '@/data/plantData';
@@ -68,7 +67,7 @@ const Index = () => {
             <Card className="border-none shadow-lg animate-on-scroll" style={{ opacity: 0, transform: 'translateY(20px)', transition: 'all 1s ease 0.2s' }}>
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-herb-green-light rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Plant size={32} className="text-herb-green-dark" />
+                  <Flower size={32} className="text-herb-green-dark" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Interactive Plant Catalog</h3>
                 <p className="text-muted-foreground">Explore detailed 3D models and comprehensive information about medicinal plants from around the world.</p>
