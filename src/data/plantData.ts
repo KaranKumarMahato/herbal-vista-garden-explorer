@@ -103,14 +103,12 @@ export const plants: Plant[] = [
       "Has antioxidant and antibacterial properties"
     ],
     cultivation: "Grows well in sandy, well-drained soil with minimal water. Requires sunny conditions but can tolerate some shade.",
-    imageSrc: "https://images.unsplash.com/photo-1596046406075-e6e3db5e1f75", // Aloe vera plant
-    imageAlt: "Fresh Aloe vera plant with thick succulent leaves",
+    imageSrc: "/lovable-uploads/34c4ef47-a55b-40e4-a0b4-70d0a0328492.png",
+    imageAlt: "Close-up of fresh Aloe Vera plants with pointed green leaves in soil",
     regions: ["Worldwide", "Mediterranean", "Africa"],
     categories: ["Skin health", "Digestive health", "Wound healing"],
     gallery: [
-      "https://images.unsplash.com/photo-1596046406075-e6e3db5e1f75", // Main aloe vera image
-      "https://images.unsplash.com/photo-1598447861938-58e9a6d87d3c", // Aloe vera gel
-      "https://images.unsplash.com/photo-1626016770112-aa73d43e215d", // Aloe vera plant in garden
+      "/lovable-uploads/34c4ef47-a55b-40e4-a0b4-70d0a0328492.png"
     ]
   },
   {
