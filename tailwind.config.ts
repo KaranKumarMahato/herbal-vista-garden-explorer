@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom herb garden color palette
+				herb: {
+					'green-dark': '#4A7C59',
+					'green-light': '#8CC084',
+					'cream': '#FEF7CD',
+					'purple': '#6E59A5',
+					'purple-light': '#E5DEFF',
+					'beige': '#F2E8DC',
 				}
 			},
 			borderRadius: {
@@ -84,11 +94,31 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'rotate-plant': {
+					'0%': { transform: 'rotateY(0deg)' },
+					'100%': { transform: 'rotateY(360deg)' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'rotate-plant': 'rotate-plant 15s infinite linear',
+			},
+			fontFamily: {
+				'playfair': ['"Playfair Display"', 'serif'],
+				'inter': ['Inter', 'sans-serif'],
 			}
 		}
 	},
