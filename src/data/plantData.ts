@@ -130,14 +130,12 @@ export const plants: Plant[] = [
       "Helps prevent and potentially treat cancer and Alzheimer's disease"
     ],
     cultivation: "Grows best in well-drained soil with moderate water. Prefers partial shade in hot climates. Rhizomes are planted at the beginning of the rainy season.",
-    imageSrc: "https://images.unsplash.com/photo-1615485500834-bc10199bc727", // Fresh turmeric root
-    imageAlt: "Fresh turmeric root and powder",
+    imageSrc: "/lovable-uploads/e6808b44-89d9-48a7-95de-d753e45bdd97.png",
+    imageAlt: "Fresh turmeric root with soil and roots, showing natural growth",
     regions: ["India", "Southeast Asia"],
     categories: ["Anti-inflammatory", "Antioxidant", "Brain health"],
     gallery: [
-      "https://images.unsplash.com/photo-1615485500834-bc10199bc727", // Main turmeric image
-      "https://images.unsplash.com/photo-1615485499677-9d6f2bf1d491", // Turmeric powder
-      "https://images.unsplash.com/photo-1615485499623-c702aa8d9cfb", // Turmeric plant
+    "/lovable-uploads/e6808b44-89d9-48a7-95de-d753e45bdd97.png"
     ]
   },
   {
@@ -166,6 +164,15 @@ export const plants: Plant[] = [
     ]
   }
 ];
+
+const turmericEntry = plants.find(plant => plant.id === "turmeric");
+if (turmericEntry) {
+  turmericEntry.imageSrc = "/lovable-uploads/e6808b44-89d9-48a7-95de-d753e45bdd97.png";
+  turmericEntry.imageAlt = "Fresh turmeric root with soil and roots, showing natural growth";
+  turmericEntry.gallery = [
+    "/lovable-uploads/e6808b44-89d9-48a7-95de-d753e45bdd97.png"
+  ];
+}
 
 export const categories = [
   "Respiratory health",
