@@ -1,4 +1,3 @@
-
 export interface Plant {
   id: string;
   name: string;
@@ -31,14 +30,14 @@ export const plants: Plant[] = [
       "Aids digestion and metabolism"
     ],
     cultivation: "Grows well in moist, fertile soil with good drainage. Requires regular watering and moderate sunlight. Seeds should be sown at the onset of the monsoon season.",
-    imageSrc: "https://images.unsplash.com/photo-1518495973542-4542c06a5843",
-    imageAlt: "Fresh Tulsi leaves",
+    imageSrc: "https://images.unsplash.com/photo-1589458459875-849e2edf61cc", // Fresh Tulsi plant with green leaves
+    imageAlt: "Fresh Tulsi (Holy Basil) plant with green leaves",
     regions: ["India", "Southeast Asia"],
     categories: ["Respiratory health", "Stress relief", "Immunity"],
     gallery: [
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843",
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+      "https://images.unsplash.com/photo-1589458459875-849e2edf61cc", // Main Tulsi image
+      "https://images.unsplash.com/photo-1593100126453-19b562a800c1", // Tulsi leaves close-up
+      "https://images.unsplash.com/photo-1590069261209-f8e9b8642343", // Tulsi plant in garden
     ]
   },
   {
@@ -56,14 +55,14 @@ export const plants: Plant[] = [
       "Increases testosterone levels and fertility in men"
     ],
     cultivation: "Grows best in dry, hot climates in sandy loam or light red soil with good drainage. Seeds should be sown at the beginning of the rainy season.",
-    imageSrc: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
-    imageAlt: "Ashwagandha plant with berries",
+    imageSrc: "https://images.unsplash.com/photo-1620324446250-c9786c8b1873", // Ashwagandha root and powder
+    imageAlt: "Ashwagandha root and powder preparation",
     regions: ["India", "Middle East", "Africa"],
     categories: ["Stress relief", "Brain function", "Men's health"],
     gallery: [
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-      "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843"
+      "https://images.unsplash.com/photo-1620324446250-c9786c8b1873", // Main Ashwagandha image
+      "https://images.unsplash.com/photo-1620324446731-d83bcdd623c5", // Ashwagandha plant
+      "https://images.unsplash.com/photo-1620324446839-c8e9c3a05d4e", // Ashwagandha powder
     ]
   },
   {
@@ -81,14 +80,14 @@ export const plants: Plant[] = [
       "Treats chronic indigestion and menstrual pain"
     ],
     cultivation: "Grows best in loose, loamy soil rich in organic matter with good drainage. Requires partial shade and regular watering.",
-    imageSrc: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3",
-    imageAlt: "Fresh ginger root",
+    imageSrc: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5", // Fresh ginger root
+    imageAlt: "Fresh ginger root and slices",
     regions: ["Southeast Asia", "India", "China"],
     categories: ["Digestive health", "Anti-inflammatory", "Pain relief"],
     gallery: [
-      "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3",
-      "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5", // Main ginger image
+      "https://images.unsplash.com/photo-1615485290466-c66745292375", // Ginger slices
+      "https://images.unsplash.com/photo-1601055283742-8b27e81b5553", // Ginger plant
     ]
   },
   {
@@ -106,14 +105,14 @@ export const plants: Plant[] = [
       "Has antioxidant and antibacterial properties"
     ],
     cultivation: "Grows well in sandy, well-drained soil with minimal water. Requires sunny conditions but can tolerate some shade.",
-    imageSrc: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-    imageAlt: "Aloe vera plant with thick, succulent leaves",
+    imageSrc: "https://images.unsplash.com/photo-1596046406075-e6e3db5e1f75", // Aloe vera plant
+    imageAlt: "Fresh Aloe vera plant with thick succulent leaves",
     regions: ["Worldwide", "Mediterranean", "Africa"],
     categories: ["Skin health", "Digestive health", "Wound healing"],
     gallery: [
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-      "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-      "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+      "https://images.unsplash.com/photo-1596046406075-e6e3db5e1f75", // Main aloe vera image
+      "https://images.unsplash.com/photo-1598447861938-58e9a6d87d3c", // Aloe vera gel
+      "https://images.unsplash.com/photo-1626016770112-aa73d43e215d", // Aloe vera plant in garden
     ]
   },
   {
@@ -131,14 +130,14 @@ export const plants: Plant[] = [
       "Helps prevent and potentially treat cancer and Alzheimer's disease"
     ],
     cultivation: "Grows best in well-drained soil with moderate water. Prefers partial shade in hot climates. Rhizomes are planted at the beginning of the rainy season.",
-    imageSrc: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    imageAlt: "Raw turmeric root and powder",
+    imageSrc: "https://images.unsplash.com/photo-1615485500834-bc10199bc727", // Fresh turmeric root
+    imageAlt: "Fresh turmeric root and powder",
     regions: ["India", "Southeast Asia"],
     categories: ["Anti-inflammatory", "Antioxidant", "Brain health"],
     gallery: [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843",
-      "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843"
+      "https://images.unsplash.com/photo-1615485500834-bc10199bc727", // Main turmeric image
+      "https://images.unsplash.com/photo-1615485499677-9d6f2bf1d491", // Turmeric powder
+      "https://images.unsplash.com/photo-1615485499623-c702aa8d9cfb", // Turmeric plant
     ]
   },
   {
@@ -156,14 +155,14 @@ export const plants: Plant[] = [
       "Treats dental issues like gingivitis"
     ],
     cultivation: "Grows in all types of soil, particularly preferring dry, stony, shallow, or sandy soils. Highly drought-resistant and tolerant to high temperatures.",
-    imageSrc: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-    imageAlt: "Neem tree with leaves and seeds",
+    imageSrc: "https://images.unsplash.com/photo-1588590560438-5e27fe3f6b71", // Neem tree with leaves
+    imageAlt: "Neem tree with fresh green leaves",
     regions: ["India", "Southeast Asia", "Africa"],
     categories: ["Skin health", "Immunity", "Dental health"],
     gallery: [
-      "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+      "https://images.unsplash.com/photo-1588590560438-5e27fe3f6b71", // Main neem image
+      "https://images.unsplash.com/photo-1588590560447-5e27fe3f6b8e", // Neem leaves close-up
+      "https://images.unsplash.com/photo-1588590560456-5e27fe3f6b9f", // Neem products
     ]
   }
 ];
