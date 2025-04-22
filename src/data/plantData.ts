@@ -53,14 +53,12 @@ export const plants: Plant[] = [
       "Increases testosterone levels and fertility in men"
     ],
     cultivation: "Grows best in dry, hot climates in sandy loam or light red soil with good drainage. Seeds should be sown at the beginning of the rainy season.",
-    imageSrc: "https://images.unsplash.com/photo-1620324446250-c9786c8b1873", // Ashwagandha root and powder
-    imageAlt: "Ashwagandha root and powder preparation",
+    imageSrc: "/lovable-uploads/013bb2d3-d3c6-4af2-ae1d-b3bf2e3fb9bd.png",
+    imageAlt: "Ashwagandha plant with green leaves and red berries in a garden setting",
     regions: ["India", "Middle East", "Africa"],
     categories: ["Stress relief", "Brain function", "Men's health"],
     gallery: [
-      "https://images.unsplash.com/photo-1620324446250-c9786c8b1873", // Main Ashwagandha image
-      "https://images.unsplash.com/photo-1620324446731-d83bcdd623c5", // Ashwagandha plant
-      "https://images.unsplash.com/photo-1620324446839-c8e9c3a05d4e", // Ashwagandha powder
+      "/lovable-uploads/013bb2d3-d3c6-4af2-ae1d-b3bf2e3fb9bd.png"
     ]
   },
   {
