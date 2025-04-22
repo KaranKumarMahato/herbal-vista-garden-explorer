@@ -177,6 +177,15 @@ if (gingerEntry) {
   ];
 }
 
+const neemEntry = plants.find(plant => plant.id === "neem");
+if (neemEntry) {
+  neemEntry.imageSrc = "/lovable-uploads/01da3ec4-637e-4fe2-9653-70cdccd79b6b.png";
+  neemEntry.imageAlt = "Neem leaves on a branch against a dark background";
+  neemEntry.gallery = [
+    "/lovable-uploads/01da3ec4-637e-4fe2-9653-70cdccd79b6b.png"
+  ];
+}
+
 export const categories = [
   "Respiratory health",
   "Stress relief",
