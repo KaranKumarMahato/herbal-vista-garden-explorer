@@ -168,6 +168,15 @@ if (turmericEntry) {
   ];
 }
 
+const gingerEntry = plants.find(plant => plant.id === "ginger");
+if (gingerEntry) {
+  gingerEntry.imageSrc = "/lovable-uploads/0eecc26f-7be6-4751-9839-bde08b0da59b.png";
+  gingerEntry.imageAlt = "Fresh ginger roots with green stalks on a brown background";
+  gingerEntry.gallery = [
+    "/lovable-uploads/0eecc26f-7be6-4751-9839-bde08b0da59b.png"
+  ];
+}
+
 export const categories = [
   "Respiratory health",
   "Stress relief",
