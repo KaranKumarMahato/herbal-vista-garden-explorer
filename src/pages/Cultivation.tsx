@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Search, Plant, TreePine } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
+import { Search, Flower, TreePine } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Separator } from '@/components/ui/separator';
@@ -10,8 +10,9 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
 const Cultivation = () => {
-  const navigate = useNavigate();
-  const [selectedPlant, setSelectedPlant] = useState("");
+  const location = useLocation();
+  const initialPlantId = location.state?.selectedPlantId || "";
+  const [selectedPlant, setSelectedPlant] = useState(initialPlantId);
   
   const handlePlantSelect = (plantId: string) => {
     setSelectedPlant(plantId);
@@ -104,7 +105,7 @@ const Cultivation = () => {
         <div className="max-w-5xl mx-auto">
           <div className="mb-8 text-center">
             <h1 className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
-              <Plant className="text-herb-green-dark" />
+              <Flower className="text-herb-green-dark" />
               Plant Cultivation Guide
             </h1>
             <p className="text-muted-foreground max-w-2xl mx-auto">

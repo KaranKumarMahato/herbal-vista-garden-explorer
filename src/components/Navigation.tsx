@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Menu, X, Leaf, Plant } from 'lucide-react';
+import { Search, Menu, X, Leaf, Flower } from 'lucide-react';
 import { Button } from './ui/button';
 
 const Navigation = () => {
@@ -26,7 +26,7 @@ const Navigation = () => {
             Quiz
           </Link>
           <Link to="/cultivation" className="hover:text-herb-cream transition-colors flex items-center gap-1">
-            <Plant size={16} />
+            <Flower size={16} />
             Cultivation
           </Link>
           <Link to="/about" className="hover:text-herb-cream transition-colors">About</Link>
@@ -78,7 +78,7 @@ const Navigation = () => {
               className="text-white hover:text-herb-cream transition-colors py-2 border-b border-herb-green-light flex items-center gap-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              <Plant size={16} />
+              <Flower size={16} />
               Cultivation
             </Link>
             <Link 
