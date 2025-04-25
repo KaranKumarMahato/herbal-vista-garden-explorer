@@ -8,6 +8,7 @@ import { Separator } from '@/components/ui/separator';
 import { getPlantById, plants } from '@/data/plantData';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import PlantUsageSection from '@/components/PlantUsageSection';
 import { useToast } from '@/components/ui/use-toast';
 
 const PlantDetail = () => {
@@ -205,11 +206,21 @@ const PlantDetail = () => {
                 <div className="space-y-4">
                   <h3 className="text-lg font-semibold mb-2">Growing Information</h3>
                   <p className="text-muted-foreground">{plant.cultivation}</p>
+                  <div className="mt-4">
+                    <Link to={`/cultivation`} state={{ selectedPlantId: plant.id }}>
+                      <Button className="flex items-center gap-2">
+                        View Complete Cultivation Guide
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </TabsContent>
             </Tabs>
           </div>
         </div>
+        
+        {/* Plant Usage Section with chart */}
+        <PlantUsageSection medicinalUses={plant.medicinalUses} plantId={plant.id} />
         
         {/* Similar Plants */}
         {similarPlants.length > 0 && (

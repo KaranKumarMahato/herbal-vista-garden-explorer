@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Menu, X } from 'lucide-react';
+import { Search, Menu, X, Leaf, Plant } from 'lucide-react';
 import { Button } from './ui/button';
 
 const Navigation = () => {
@@ -21,6 +21,14 @@ const Navigation = () => {
         <div className="hidden md:flex items-center space-x-6">
           <Link to="/catalog" className="hover:text-herb-cream transition-colors">Plant Catalog</Link>
           <Link to="/tours" className="hover:text-herb-cream transition-colors">Guided Tours</Link>
+          <Link to="/quiz" className="hover:text-herb-cream transition-colors flex items-center gap-1">
+            <Leaf size={16} />
+            Quiz
+          </Link>
+          <Link to="/cultivation" className="hover:text-herb-cream transition-colors flex items-center gap-1">
+            <Plant size={16} />
+            Cultivation
+          </Link>
           <Link to="/about" className="hover:text-herb-cream transition-colors">About</Link>
           <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-herb-green-dark">
             <Search size={18} className="mr-2" />
@@ -56,6 +64,22 @@ const Navigation = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Guided Tours
+            </Link>
+            <Link 
+              to="/quiz" 
+              className="text-white hover:text-herb-cream transition-colors py-2 border-b border-herb-green-light flex items-center gap-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Leaf size={16} />
+              Quiz
+            </Link>
+            <Link 
+              to="/cultivation" 
+              className="text-white hover:text-herb-cream transition-colors py-2 border-b border-herb-green-light flex items-center gap-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Plant size={16} />
+              Cultivation
             </Link>
             <Link 
               to="/about" 
