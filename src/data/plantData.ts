@@ -83,7 +83,7 @@ export const plants: Plant[] = [
     gallery: [
       "https://images.unsplash.com/photo-1615485290382-441e4d049cb5", // Main ginger image
       "https://images.unsplash.com/photo-1615485290466-c66745292375", // Ginger slices
-      "https://images.unsplash.com/photo-1601055283742-8b27e81b5553", // Ginger plant
+      "https://images.unsplash.com/photo-1615485290456-5e27fe3f6b9f", // Ginger plant
     ]
   },
   {
